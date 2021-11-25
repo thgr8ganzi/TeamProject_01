@@ -1,0 +1,161 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css);
+
+* {
+	font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+}
+
+/* 하이퍼링크 */
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000000;
+	text-decoration: #000000;
+	cursor: pointer;
+}
+
+/* 네비게이션 영역 */
+/* 배경 색상 */
+.navbar-default {
+	background-color: #000000;
+	border-color: #000000;
+}
+/* 내비게이션 제목 색상 */
+.navbar-default .navbar-brand {
+	color: #ffffff;
+}
+/* 내비게이션 제목에 마우스를 올렸을 때, 내비게이션 제목이 포커스를 가졌을 때 */
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	background-color: transparent; /* 투명 */
+	color: #ffffff;
+}
+/* 선택된 내비게이션 */
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	background-color: #ffffff;
+	color: #ffffff;
+}
+/* 내비게이션 글자에 마우스를 올렸을 때 */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	background-color: #000000;
+	color: #ffffff;
+}
+/* 해상도가 클 때 드롭다운이 열렸을 때 메뉴 */
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+	background-color: #000000;
+	color: #ffffff;
+	text-decoration: none;
+	font-family: 'Spoqa Han Sans';
+	font-size: 20px;
+}
+/* 해상도가 클 때 드롭다운이 열렸을 때 아이템 */
+.navbar-default .navbar-nav > .open > .dropdown-menu > li > a {
+	color: #000000;
+}
+.navbar-default .navbar-nav > .open > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > .open > .dropdown-menu > li > a:focus {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+/* 내비게이션 기본 색상 */
+.navbar-default .navbar-nav {
+	color: #000000;
+}
+
+/* 해상도가 작을 때 드롭다운 아이템에 마우스를 올렸을 때 */
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav > .open > .dropdown-menu > li > a {
+		color: #ffffff;
+	}
+	.navbar-default .navbar-nav > .open > .dropdown-menu > li > a:hover,
+	.navbar-default .navbar-nav > .open > .dropdown-menu > li > a:focus {
+		background-color: #ffffff;
+		color: #000000;
+	}
+}
+
+thead th {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+h4 {
+	font-family: 'Spoqa Han Sans';
+}
+
+h5 {
+	font-family: 'Spoqa Han Sans';
+	font-size: 15px;
+}
+
+/* 크루 멤버 사진 크기 */
+img{
+	width: 200px;
+}
+
+div.panel-default>div.panel-heading{
+	background-color: black;
+	border-radius:5px; 
+}
+.panel-body{
+	background-color: gray;
+	border:0px;
+	border-radius:5px; 
+}
+div>h5{
+	color:yellow;
+}
+p>.btn-default{
+	background-color: black;
+	color:white;
+	border:0px;
+}
+p>.btn-default:hover{
+	background-color: red;	
+	color:white;
+}
+
+body{
+	background-color: #392f31;
+}
+.panel-default{
+	border-color: transparent;
+	border:0px;
+	background-color: #392f31;
+}
+
+.modal-header{
+	background-color: #2e2627;
+	border-color:#473b3d;
+	color:gray;
+}
+.modal-body{
+	background-color: #473b3d;
+	border-color:#473b3d;
+	overflow: auto;
+}
+.modal-body>div.row{
+	width:80%;
+	height:80%;
+}
+
+div.ytp-cued-thumbnail-overlay{
+	width: 80%;
+}
+div.jumbotron{
+	background: linear-gradient(145deg, #575b5d, #252b2d);
+	padding-top: 20px;
+	color:white;
+}
+.login-dark {
+    background: linear-gradient(145deg, #575b5d, #252b2d);
+}
